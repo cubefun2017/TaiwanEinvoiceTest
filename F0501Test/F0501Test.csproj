@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{946B7DB6-D0CA-4014-90B4-E06891F28E8F}</ProjectGuid>
+    <ProjectGuid>{BB552ECA-F9BB-4C0F-B878-81A6566E52BC}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>F0401Test</RootNamespace>
-    <AssemblyName>F0401Test</AssemblyName>
+    <RootNamespace>F0501Test</RootNamespace>
+    <AssemblyName>F0501Test</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,8 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MIG4-Storage, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="MIG4-Storage">
       <HintPath>..\MIG4-Storage.dll</HintPath>
     </Reference>
     <Reference Include="System" />
