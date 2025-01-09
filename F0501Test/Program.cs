@@ -18,7 +18,7 @@ namespace F0501Test
             // Create XML example file
             var f0501 = F0501.CreateExample();
             // override InvoiceNumber default value
-            //f0401.MainDetails.InvoiceNumber = "1234567890"; //invalid invoice number
+            //f0501.CancelInvoiceNumber = "1234567890"; //invalid invoice number format
 
             // Valid format error
             List<string> errors = F0501.Validation(f0501);
