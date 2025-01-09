@@ -12,8 +12,8 @@ namespace F0401Test
             InvoiceF0401 F0401 = new InvoiceF0401();
 
             // create blank XML file
-            //string fileName = "F0401test.xml";
-            //F0401.CreateXML(F0401, fileName);
+            string blankFileName = "F0401test-Blank.xml";
+            F0401.CreateXML(F0401, blankFileName);
 
             // Create XML example file
             var f0401 = F0401.CreateExample();
