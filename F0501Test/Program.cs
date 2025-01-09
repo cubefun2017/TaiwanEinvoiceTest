@@ -24,7 +24,7 @@ namespace F0501Test
             List<string> errors = F0501.Validation(f0501);
             if (errors.Count == 0)
             {
-                // Create example F0401.XML
+                // Create example XML
                 string fileName = "F0501test.xml";
                 F0501.CreateXML(f0501, fileName);
                 Console.WriteLine($"{fileName} Created.");
